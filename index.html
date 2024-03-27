@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> I love JS</h1>  
+    <script>
+        function circle(r)
+        {
+            
+             a= Math.PI * r * r;
+            return "The area is :" + a;
+        
+        }
+        console.log(circle(2))
+
+        function peri(r)
+        {
+            p = 2* Math.PI * r;
+            return "The perimeter is:" + p;
+        }
+        console.log(peri(3))
+
+        
+        // No arguments No Return
+
+        function sayBy()
+        {
+            console.log("By");
+        }
+        sayBy();
+
+
+
+
+        //Arguments yes But No Return
+
+
+        function SayHii(Student_name)
+        {
+            console.log(`Hii ${Student_name}`);
+        }
+           SayHii("RTC");
+           SayHii("Anjali")
+
+
+
+        // No Arguments But Returns yes
+        
+        function getPassingMarks()
+        {
+            return 10;
+        }
+            const PassingMarks = getPassingMarks();
+            console.log(PassingMarks);
+        
+
+        // argumets bhi yes or returns bhi yes
+
+
+        function claculateArea(length, breadth)
+        {
+            const area= length * breadth;
+
+
+            return area;
+        }
+
+
+        
+         const area1=claculateArea(5, 5);
+         console.log(`area of table is: ${area1} sq.meter`)
+
+
+
+        
+    </script>  
+</body>
+</html>
